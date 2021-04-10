@@ -147,14 +147,14 @@
 %% this is a modified abalone dataset the M,F,I has been removed. AKA the first feature was removed to make it all continous
 @relation abalone
 
-@attribute  Length continuous
-@attribute  Diameter continuous
-@attribute  Height continuous
-@attribute  Whole_weight continuous
-@attribute  Shucked_weight continuous
-@attribute  Viscera_weight continuous
-@attribute  Shell_weight continuous
-@attribute  Rings continuous
+@attribute  Length REAL
+@attribute  Diameter REAL
+@attribute  Height REAL
+@attribute  Whole_weight REAL
+@attribute  Shucked_weight REAL
+@attribute  Viscera_weight REAL
+@attribute  Shell_weight REAL
+@attribute  Rings REAL
 
 @data
 0.455,0.365,0.095,0.514,0.2245,0.101,0.15,15
